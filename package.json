@@ -10,7 +10,7 @@
   "types": "lib/odoots.d.ts",
   "scripts": {
     "build": "tsc",
-    "prepare": "rm lib/* && tsc"
+    "prepare": "tsc"
   },
   "files": [
     "lib/"
