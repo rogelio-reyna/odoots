@@ -9,8 +9,8 @@
   "main": "lib/odoots.js",
   "types": "lib/odoots.d.ts",
   "scripts": {
-    "build": "tsc",
-    "prepare": "tsc"
+    "build": "npx tsc",
+    "prepare": "npx tsc"
   },
   "files": [
     "lib/"
