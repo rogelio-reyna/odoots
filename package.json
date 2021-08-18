@@ -9,8 +9,8 @@
   "main": "lib/odoots.js",
   "types": "lib/odoots.d.ts",
   "scripts": {
-    "build": "echo \"This is a BUILD test of the emergency broadcast system\" && tsc --build",
-    "prepare": "echo \"This is not a PREPARE test of the emergency broadcast system\" && ls -la && tsc --build"
+    "build": "npx tsc --build",
+    "prepare": "npx tsc --build"
   },
   "files": [
     "lib/"
